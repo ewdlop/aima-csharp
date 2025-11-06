@@ -20,11 +20,11 @@ Here is a table of algorithms, the figure, name of the code in the book, and the
 |3.7|77|Tree-Search|[TreeSearch](/aima-csharp/search/framework/qsearch/TreeSearch.cs)|
 |3.7|77|Graph-Search|[GraphSearch](/aima-csharp/search/framework/qsearch/GraphSearch.cs)|
 |3.10|79|Node|[Node](/aima-csharp/search/framework/Node.cs)|
-|3.11|82|Breadth-First-Search|
-|3.14|84|Uniform-Cost-Search|
-|3|85|Depth-first Search|
-|3.17|88|Depth-Limited-Search|
-|3.18|89|Iterative-Deepening-Search|
+|3.11|82|Breadth-First-Search|[BreadthFirstSearch](/aima-csharp/search/uninformed/BreadthFirstSearch.cs)|
+|3.14|84|Uniform-Cost-Search|[UniformCostSearch](/aima-csharp/search/uninformed/UniformCostSearch.cs)|
+|3|85|Depth-first Search|[DepthFirstSearch](/aima-csharp/search/uninformed/DepthFirstSearch.cs)|
+|3.17|88|Depth-Limited-Search|[DepthLimitedSearch](/aima-csharp/search/uninformed/DepthLimitedSearch.cs)|
+|3.18|89|Iterative-Deepening-Search|[IterativeDeepeningSearch](/aima-csharp/search/uninformed/IterativeDeepeningSearch.cs)|
 |3|90|Bidirectional search|
 |3|92|Best-First search|
 |3|92|Greedy best-First search|
