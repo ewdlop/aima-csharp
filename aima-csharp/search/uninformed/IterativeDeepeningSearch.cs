@@ -56,17 +56,16 @@ namespace aima.core.search.uninformed
                 metrics.set("nodesExpanded", nodesExpanded);
                 metrics.set("maxDepth", depth);
                 
-                // Check if we found a solution
-                if (result.Count > 0)
+                // Check if we found a solution (not a failure)
+                if (!SearchUtils.isFailure(result))
                 {
                     // Found a solution
                     metrics.set("pathCost", dlsMetrics.getDouble("pathCost"));
                     return result;
                 }
                 
-                // If the result is empty (not cutoff), no solution exists
-                // Note: In DLS, an empty result means failure (no solution),
-                // while a cutoff means the limit was reached before exhausting possibilities
+                // If the result is a failure (empty list), no solution exists at this depth
+                // Continue to next depth
             }
             
             // No solution found within max depth
