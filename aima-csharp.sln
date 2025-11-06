@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36623.8 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aima-csharp", "aima-csharp\aima-csharp.csproj", "{125F53D5-1CCF-4DAF-82FE-4324686CF417}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aima-csharp-not-core", "aima-csharp-not-core\aima-csharp-not-core.csproj", "{F66BF07E-18F4-2153-8872-456EC0A48999}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{125F53D5-1CCF-4DAF-82FE-4324686CF417}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{125F53D5-1CCF-4DAF-82FE-4324686CF417}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{125F53D5-1CCF-4DAF-82FE-4324686CF417}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F66BF07E-18F4-2153-8872-456EC0A48999}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F66BF07E-18F4-2153-8872-456EC0A48999}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F66BF07E-18F4-2153-8872-456EC0A48999}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F66BF07E-18F4-2153-8872-456EC0A48999}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C627173-DC85-444C-976C-21E5BA65A699}
 	EndGlobalSection
 EndGlobal
